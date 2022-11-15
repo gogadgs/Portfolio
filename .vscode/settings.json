@@ -1,0 +1,50 @@
+{
+    "cSpell.words": [
+        "Adaptação",
+        "aprendizagem",
+        "atividades",
+        "Atual",
+        "Auxiliar",
+        "Centerlux",
+        "concentrado",
+        "correlatas",
+        "direitos",
+        "enfase",
+        "Espanhol",
+        "evento",
+        "experiencia",
+        "Experiência",
+        "Facilidade",
+        "Faturamento",
+        "Ferramentas",
+        "fiscais",
+        "fundo",
+        "Icones",
+        "Idiomas",
+        "Inglês",
+        "integrada",
+        "Interpessoais",
+        "localização",
+        "logistica",
+        "Moradia",
+        "notas",
+        "Outubro",
+        "Portfólio",
+        "Profissionais",
+        "rápida",
+        "Relogio",
+        "repetição",
+        "Reservados",
+        "responsividade",
+        "telefone",
+        "ususário"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:DioPortfolio}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}

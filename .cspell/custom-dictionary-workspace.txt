@@ -1,0 +1,9 @@
+# Custom Dictionary Words
+código
+construido
+diferente
+escrita
+função
+inserido
+mesma
+sintaticamente

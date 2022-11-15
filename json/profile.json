@@ -1,0 +1,55 @@
+{
+    "name": "Douglas Godois dos Santos",
+    "photo": "curriculo foto.jpg",
+    "job": "Auxiliar de Faturamento",
+    "location": "Viamão - RS",
+    "phone": "(51) 994439879",
+    "email": "douglsgodoisdossantos@gmail.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "Microsoft",
+                "logo": "Icones/microsoft.svg"
+            },
+            {
+                "name": "Google",
+                "logo": "Icones/google.svg"
+            }
+        ],
+        "softSkills": [
+            "Adaptação Rápida",
+            "Facilidade de Aprendizagem",
+            "Concentrado",
+            "Visão de trabalho orientado ao objeto"
+        ]
+    },
+    "languages": [
+        "Português BR(fluente)",
+        "Inglês (básico)",
+        "Espanhol (básico)"
+    ],
+    "portfolio": [
+        {
+            "name": "Relogio JavaScript",
+            "url": "https://gogadgs.github.io/RelogioJavascript",
+            "github": true
+        },
+        {
+            "name": "Calculadora JavaScript",
+            "url": "https://gogadgs.github.io/calculadora-javascript",
+            "github": true
+        }
+    ],
+    "professionalExperience": [
+        {
+            "name": "Auxiliar de Faturamento / Centerlux",
+            "period": "Outubro 2022 - Atual",
+            "description": "Faturamento de notas fiscais,atividades correlatas a logistica integrada via sistema WMS",
+            "logo": {
+                "Centerlux": "Icones/centerlux.svg",
+                "RS": "",
+                "Dimaci": ""
+            }
+        }
+    ]
+}

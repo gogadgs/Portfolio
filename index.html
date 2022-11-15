@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- tag para caracteres especiais-->
+    <meta charset="UTF-8">
+    <!--author código fonte-->
+    <meta author="Douglas Godois dos Santos " />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--tag especial para responsividade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!--tag imagem de logo acima da página nos navegadores-->
+    <link rel="icon" type="image/x-icon" href="Icones/curriculum.png">
+    <!--tag de rede distribuição de conteudo CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--tag para estilizaçao externa da SPA(Simple Page Aplication)-->
+    <link rel="stylesheet" type="text/css" href="CSS/global.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/header.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/StylePag.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/language.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/experiencia.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/habilidades.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/footer.css" />
+</head>
+
+<body>
+
+
+    <main class="main">
+        <!--html semântico cabeçalho-->
+        <header class="header">
+            <img src="" alt="Foto de Perfil" id="profile.photo" class='photo' />
+            <h1 class="title">
+                <span id="profile.name"> loading...</span>
+            </h1>
+            <div class="information">
+                <p class="cargo">
+
+                    <a href="" target="_blank"><span id="profile.job">loading...</span></a>
+                </p>
+                <p class="localMoradia">
+                    <a href="" target="_blank"><span id="profile.location">loading...</span></a>
+                </p>
+                <p class="telefone">
+                    <a href="" target="_blank"><span id="profile.phone">loading...</span></a>
+                </p>
+                <p class="email">
+                    <a href="" target="_blank">
+                        <span id="profile.email">loading...</span></a>
+                </p>
+            </div>
+        </header>
+        <section class="style">
+            <button class="trigger" type="button">
+                <span class="title">Habilidades</span>
+            </button>
+            <div class="content">
+
+                <div class="habilidades">
+                    <section class="ferramentas">
+                        <h3>Ferramentas</h3>
+                        <ul id="profile.skills.hardSkills">
+                        </ul>
+                    </section>
+                    <section class="pessoais">
+                        <h3>Interpessoais</h3>
+                        <ul id="profile.skills.softSkills">
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="style">
+            <button class="trigger" type="button">
+                <span class="title">Idiomas</span>
+            </button>
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>loading...</li>
+                    <li>loading..</li>
+                    <li>loading...</li>
+                </ul>
+            </div>
+        </section>
+        <section class="style">
+            <button class="trigger" type="button">
+                <span class="title">Portfólio</span>
+            </button>
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                    <li>
+                        <h3 class="title github">loading...</h3>
+                        <a href="" target="_blank">loading...</a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="style">
+            <button class="trigger" type="button">
+                <span class="title">Experiência Profissional</span>
+            </button>
+            <div class="content">
+                <ul class="experiencia-profissional" id="profile.professionalExperience">
+                </ul>
+
+            </div>
+        </section>
+
+
+        <!--rodapé-->
+        <footer>
+
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="Icones/dio.svg" alt="DIO">
+            </a>
+        </footer>
+
+    </main>
+
+
+
+    <script src="js/language.js"></script>
+    <script src="js/Api.js"></script>
+    <script src="js/mains.js"></script>
+
+</body>
+
+</html>
