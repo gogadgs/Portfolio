@@ -1,66 +1,71 @@
-.formação-profissional{
-    margin:0;
-    padding:0;
-    list-style:none;
+.formação-profissional {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     display: flex;
     flex-direction: column;
 }
-.formação-profissional li{
-    margin-bottom: 0.5rem;;
-}
-.formação-profissional li .period{
-    display:flex;
-    flex-direction:row;
+
+.formação-profissional li {
+    margin-bottom: 0.5rem;
+    ;
 }
 
-.formação-profissional li .logo.Fadergs::before{
-    content:"";
-    display:inline-block;
+.formação-profissional li .period {
+    display: flex;
+    flex-direction: row;
+}
+
+.formação-profissional li .logo.Fadergs::before {
+    content: "";
+    display: inline-block;
     width: 3rem;
     height: 3rem;
     margin-right: 1rem;
-    zoom:100%;
+    zoom: 100%;
     background-color: no-repeat;
     background-size: contain;
-    background-image:url("/Icones/fadergs.png");
+    background-image: url("Icones/fadergs.png");
     margin-right: 0.5rem;
 
 }
-.formação-profissional li .logo.Protasio::before{
-    content:"";
-    display:inline-block;
+
+.formação-profissional li .logo.Protasio::before {
+    content: "";
+    display: inline-block;
     width: 3rem;
     height: 1rem;
     margin-right: 1rem;
-    zoom:100%;
+    zoom: 100%;
     background-color: no-repeat;
     background-size: contain;
-    background-image:url("https://raw.githubusercontent.com/gogadgs/curriculoHTML/main/logo%20protasio.png");
+    background-image: url("https://raw.githubusercontent.com/gogadgs/curriculoHTML/main/logo%20protasio.png");
     margin-right: 0.5rem;
 
 }
-.formação-profissional li .logo.Farroupilha::before{
-    content:"";
-    display:inline-block;
+
+.formação-profissional li .logo.Farroupilha::before {
+    content: "";
+    display: inline-block;
     width: 3rem;
     height: 3rem;
     margin-right: 1rem;
-    zoom:100%;
+    zoom: 100%;
     background-color: no-repeat;
     background-size: contain;
-    background-image:url("/Icones/logo Farroupilha.png");
+    background-image: url("Icones/logo Farroupilha.png");
     margin-right: 0.5rem;
 
 }
 
-.formação-profissional li .period::before{
-    content:"";
-    display:inline-block;
+.formação-profissional li .period::before {
+    content: "";
+    display: inline-block;
     width: 1rem;
     height: 1rem;
     background-color: no-repeat;
     background-size: contain;
-    background-image:url("../Icones/calendario.svg");
+    background-image: url("Icones/calendario.svg");
     margin-right: 0.5rem;
 
 }
