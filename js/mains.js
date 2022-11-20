@@ -129,4 +129,4 @@ const forwardProfessional = (profileData) => {
     forwardProfessional(profileData);
 
 
-})()
+})();
