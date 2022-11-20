@@ -1,41 +1,73 @@
-.experiencia-profissional {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.experiencia-profissional{
+    margin:0;
+    padding:0;
+    list-style:none;
     display: flex;
     flex-direction: column;
 }
+.experiencia-profissional li{
+    margin-bottom:0.5rem;
+}
+.experiencia-profissional li .period{
+display: flex;
+flex-direction: row;
+    
+}   
 
-.experiencia-profissional li {
-    margin-bottom: 0.5rem;
+.experiencia-profissional li .logo.centerlux::before{
+        content:"";
+        display:inline-block;
+        width: 2rem;
+        height: 1rem;
+        background-color: no-repeat;
+        background-size: contain;
+        background-image:url("../Icones/centerlux.svg");
+        margin-right: 0.5rem;
+    
+}   
+.experiencia-profissional li .logo.RS::before{
+        content:"";
+        display:inline-block;
+        width: 2.1rem;
+        height: 1rem;
+        background-color: no-repeat;
+        background-size: contain;
+        background-image:url("../Icones/RS.svg");
+        margin-right: 0.5rem;
+    
+}   
+.experiencia-profissional li .logo.DIMACI::before{
+        content:"";
+        display:inline-block;
+        width: 1.8rem;
+        height: 1rem;
+        background-color: no-repeat;
+        background-size: contain;
+        background-image:url("../Icones/DIMACI.svg");
+        margin-right: 0.5rem;
+    
+}   
+.experiencia-profissional li .logo.FORTPEL::before{
+        content:"";
+        display:inline-block;
+        width: 2rem;
+        height: 2rem;
+        background-color: no-repeat;
+        background-size: contain;
+        background-image:url("../Icones/FORTPE.svg");
+        margin-right: 0.5rem;
+    
+}   
+.experiencia-profissional li .period::before{
+        content:"";
+        display:inline-block;
+        width: 1rem;
+        height: 1rem;
+        background-color: no-repeat;
+        background-size: contain;
+        background-image:url("../Icones/calendario.svg");
+        margin-right: 0.5rem;
+    
 }
 
-.experiencia-profissional li .period {
-    display: flex;
-    flex-direction: row;
 
-}
-
-.experiencia-profissional li .logo::before {
-    content: "";
-    display: inline-block;
-    width: 2.1rem;
-    height: 1rem;
-    background-color: no-repeat;
-    background-size: contain;
-    background-image: url("../Icones/centerlux.svg");
-    margin-right: 0.5rem;
-
-}
-
-.experiencia-profissional li .period::before {
-    content: "";
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    background-color: no-repeat;
-    background-size: contain;
-    background-image: url("../Icones/calendario.svg");
-    margin-right: 0.5rem;
-
-}

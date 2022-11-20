@@ -4,7 +4,7 @@
     "job": "Auxiliar de Faturamento",
     "location": "Viamão - RS",
     "phone": "(51) 994439879",
-    "email": "douglsgodoisdossantos@gmail.com",
+    "email": "douglasgodoisdossantos@gmail.com",
     "skills": {
         "hardSkills": [
             {
@@ -14,6 +14,34 @@
             {
                 "name": "Google",
                 "logo": "Icones/google.svg"
+            },
+            {
+                "name": "Html5",
+                "logo": "Icones/html.svg"
+            },
+            {
+                "name": "CSS3",
+                "logo": "Icones/css.svg"
+            },
+            {
+                "name": "javascript",
+                "logo": "Icones/javascript.svg"
+            },
+            {
+                "name": "nodeJs",
+                "logo": "Icones/nodeJs.svg"
+            },
+            {
+                "name": "VBA/EXCEL",
+                "logo": "Icones/vba.svg"
+            },
+            {
+                "name": "Figma",
+                "logo": "Icones/figma.svg"
+            },
+            {
+                "name": "XML",
+                "logo": "Icones/xml.svg"
             }
         ],
         "softSkills": [
@@ -24,7 +52,7 @@
         ]
     },
     "languages": [
-        "Português BR(fluente)",
+        "Português BR (fluente)",
         "Inglês (básico)",
         "Espanhol (básico)"
     ],
@@ -32,12 +60,29 @@
         {
             "name": "Relogio JavaScript",
             "url": "https://gogadgs.github.io/RelogioJavascript",
-            "github": true
+            "url2": "https://relogio-javascript.vercel.app/",
+            "github": true,
+            "vercel": true,
+            "favicon": true,
+            "relogio": true
         },
         {
             "name": "Calculadora JavaScript",
             "url": "https://gogadgs.github.io/calculadora-javascript",
-            "github": true
+            "url2": "https://calculadora-javascript-six.vercel.app/",
+            "favicon": true,
+            "calculadora": true,
+            "github": true,
+            "vercel": true
+        },
+        {
+            "name": "Curriculo Html5 e CSS3",
+            "url": "https://gogadgs.github.io/curriculoHTML/",
+            "url2": "https://douglasgodoisdossantos.vercel.app/",
+            "favicon": true,
+            "Curriculo": true,
+            "github": true,
+            "vercel": true
         }
     ],
     "professionalExperience": [
@@ -46,10 +91,55 @@
             "period": "Outubro 2022 - Atual",
             "description": "Faturamento de notas fiscais,atividades correlatas a logistica integrada via sistema WMS",
             "logo": {
-                "Centerlux": "Icones/centerlux.svg",
-                "RS": "",
-                "Dimaci": ""
+                "Centerlux": "Icones/centerlux.svg"
             }
+        },
+        {
+            "name": "Auxiliar de faturamento/ FORTPEL COMERCIO DE DESCARTAVEIS LTDA",
+            "period": "Abril 2022 - Outubro 2022",
+            "description": "Funções: faturamento de notas de saidas, laudos técnicos de produtos e boletos anexados junto aos documentos de embarcações. Arquivamentos de pedidos e notas para futuros processos gerenciais.",
+            "logo": {
+                "FORTPEL": "Icones/FORTPE.svg"
+            }
+        },
+        {
+            "name": "Faturista / RS PRODUTOS HOSPITALARES LTDA",
+            "period": "janeiro 2016 - novembro 2021",
+            "description": "Funções: Auxiliar administrativo/faturista II de 2016 até 2021 desempenhando atividades de faturamento, ou seja, entradas, saídas, devoluções de notas fiscais, transportes, conciliação de faturas como peça chave para desenvolvimento e estipulação de metas de fretes, marketing interno , dashboards,isto é, documentos capazes de transmitir confiabilidade de informações. Auxiliando também em relatórios de controle e organização operacional. Resultados: redução de até no máximo oito por cento de valores de fretes e taxas extras que não contabilizavam no contrato da prestação de serviços além da descrição das atividades passadas mensalmente no formato dissertativo para apuração do risco fiscal e contábil a ser considerado para melhoria continua e padronização de processos",
+            "logo": {
+                "RS": "Icones/RS.svg"
+            }
+        },
+        {
+            "name": "Faturista/ auxiliar de almoxarifado / DIMACI MATERIAL CIRURGICO LTDA",
+            "period": "novembro 2019 - Dezembro 2015",
+            "description": "Funções: Auxiliar de Almoxarifado até o ano de 2010 desempenhando atividades de separação de pedidos e expedição Após um ano promovido a auxiliar administrativo/faturamento, ou seja, entradas, saídas, devoluções de notas fiscais. Auxiliando também planilhas de controle e organização operacional.Resultados: todos os documentos digitalizados para consulta pública com o objetivo dos departamentos da corporação otimizarem tempo e processos além da eficácia e agilidade nos faturamentos dos pedidos perante a necessidade dos clientes em receber os produtos.",
+            "logo": {
+                "DIMACI": "Icones/DIMACI.svg"
+            }
+        }
+    ],
+    "formation": [
+        {
+            "course": "Faculdade de Administração de Negócios",
+            "period": "2019 - 2023",
+            "fadergs": true,
+            "logo": "https://raw.githubusercontent.com/gogadgs/curriculoHTML/main/logo%20fadergs.png",
+            "description": "Bacharelado de Administração com enfase em parametrização no campo dos negócios internacionais"
+        },
+        {
+            "course": "Curso Técnico de Informática",
+            "period": "2014 - 2015",
+            "Protasio": true,
+            "logo": "https://raw.githubusercontent.com/gogadgs/curriculoHTML/main/logo%20protasio.png",
+            "description": "Curso técnico de informática com enfase em manutenção de computadores e notebooks"
+        },
+        {
+            "course": "Escola Estadual de Ensino Médio Farroupilha",
+            "period": "2007 - 2009",
+            "Farroupilha": true,
+            "logo": "Icones/logo Farroupilha.png",
+            "description": "Ensino Médio Completo"
         }
     ]
 }
