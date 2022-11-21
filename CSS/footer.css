@@ -1,18 +1,23 @@
-footer{
+footer {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 1rem;
 }
-footer img{
+
+footer img {
     max-width: 40px;
+
 }
-footer img a:hover{
-    opacity:0;
-    -webkit-box-flex:grayscale(0%);
+
+footer img a:hover {
+    opacity: 0;
+    -webkit-box-flex: grayscale(0%);
     transition: 1s;
 }
-footer a img#left{
-    margin-left:48rem;
+
+footer a img#left {
+    margin-left: 1rem;
+    padding: 0.1rem
 }
