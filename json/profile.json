@@ -6,8 +6,7 @@
     "phone": "(51)994439879",
     "email": "douglasgodoisdossantos@gmail.com",
     "skills": {
-        "hardSkills": [
-            {
+        "hardSkills": [{
                 "name": "Microsoft",
                 "logo": "Icones/microsoft.svg"
             },
@@ -56,8 +55,7 @@
         "Inglês (básico)",
         "Espanhol (básico)"
     ],
-    "portfolio": [
-        {
+    "portfolio": [{
             "name": "Relogio JavaScript",
             "url": "https://gogadgs.github.io/RelogioJavascript",
             "url2": "https://relogio-javascript.vercel.app/",
@@ -85,8 +83,7 @@
             "vercel": true
         }
     ],
-    "professionalExperience": [
-        {
+    "professionalExperience": [{
             "name": "Auxiliar de Faturamento / Centerlux",
             "period": "Outubro 2022 - Atual",
             "description": "Faturamento de notas fiscais,atividades correlatas a logistica integrada via sistema WMS",
@@ -112,15 +109,14 @@
         },
         {
             "name": "Faturista/ auxiliar de almoxarifado / DIMACI MATERIAL CIRURGICO LTDA",
-            "period": "novembro 2019 - Dezembro 2015",
+            "period": "novembro 2009 - Dezembro 2015",
             "description": "Funções: Auxiliar de Almoxarifado até o ano de 2010 desempenhando atividades de separação de pedidos e expedição Após um ano promovido a auxiliar administrativo/faturamento, ou seja, entradas, saídas, devoluções de notas fiscais. Auxiliando também planilhas de controle e organização operacional.Resultados: todos os documentos digitalizados para consulta pública com o objetivo dos departamentos da corporação otimizarem tempo e processos além da eficácia e agilidade nos faturamentos dos pedidos perante a necessidade dos clientes em receber os produtos.",
             "logo": {
                 "DIMACI": "Icones/DIMACI.svg"
             }
         }
     ],
-    "formation": [
-        {
+    "formation": [{
             "course": "Faculdade de Administração de Negócios",
             "period": "2019 - 2023",
             "fadergs": true,
