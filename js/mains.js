@@ -93,10 +93,6 @@ const forwardProfessional = (profileData) => {
     const forwardProfessional = document.getElementById('profile.formação');
     forwardProfessional.innerHTML = profileData.formation.map(forwardProfessional =>
         `
-      
-        
-         
-    
         <li>
         
                 <h3 ${forwardProfessional.fadergs ?'class="logo Fadergs"':forwardProfessional.Protasio?'class="logo Protasio"':forwardProfessional.Farroupilha ?'class="logo Farroupilha"':''}>${forwardProfessional.course}
