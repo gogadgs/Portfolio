@@ -95,7 +95,7 @@ const forwardProfessional = (profileData) => {
         `
         <li>
         
-                <h3 ${forwardProfessional.fadergs ?'class="logo Fadergs"':forwardProfessional.Protasio?'class="logo Protasio"':forwardProfessional.Farroupilha ?'class="logo Farroupilha"':''}>${forwardProfessional.course}
+                <h3 ${forwardProfessional.fadergs ?'class="logo Fadergs"':forwardProfessional.Protasio?'class="logo Protasio"':forwardProfessional.Farroupilha ?'class="logo Farroupilha"':""}>${forwardProfessional.course}
                 
                 </h3>
                 <span class="period" >${forwardProfessional.period}</span>
