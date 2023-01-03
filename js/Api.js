@@ -1,4 +1,4 @@
-async function fetchProfileData  (){
+async function fetcProfileData  (){
     const url = "../json/profile.json"; // arquivo json a ser inserido e construido // 
      const fetching =  await fetch(url);
     return await  fetching.json();
