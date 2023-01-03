@@ -4,18 +4,18 @@ const updateProfileInfo = (profileData) => {
     photo.alt = profileData.name;
 
 
-    const name = document.getElementById('profile.name')
+    const name = document.getElementById('profile.name');
     name.innerText = profileData.name;
-    const job = document.getElementById('profile.job')
+    const job = document.getElementById('profile.job');
     job.innerText = profileData.job;
     const location = document.getElementById('profile.location');
     location.innerText = profileData.location;
-    const phone = document.getElementById('profile.phone')
+    const phone = document.getElementById('profile.phone');
     phone.innerText = profileData.phone;
-    phone.href = `tel: ${profileData.phone}`
-    const email = document.getElementById('profile.email')
+    phone.href = `tel:${profileData.phone}`;
+    const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
-    email.href = `mailto:${profileData.email}`
+    email.href = `mailto:${profileData.email}`;
 
 
 };
@@ -55,9 +55,10 @@ const updatePortfolio = (profileData) => {
         `
     <li>
     
-            <h3 ${portfolio.relogio? 'class="favicon relogio"' : portfolio.calculadora?'class="favicon calculadora"':portfolio.Curriculo?'class="favicon Curriculo"':""}>${portfolio.name}</h3>
+            <h3 ${portfolio.relogio? 'class="favicon relogio"' : portfolio.calculadora?'class="favicon calculadora"':portfolio.Curriculo?'class="favicon Curriculo"':portfolio.calculadoraReact?'class="favicon calculadoraReact"':''}>${portfolio.name}</h3>
             <a class="github" href="${portfolio.url}" target="_blank">${portfolio.url}</a>
             <a class="vercel" href="${portfolio.url2}" target="_blank">${portfolio.url2}</a>
+            <a class="netlify" href="${portfolio.url3}" target="_blank">${portfolio.url3}</a>
 
     </li>
     
@@ -129,4 +130,4 @@ const forwardProfessional = (profileData) => {
     forwardProfessional(profileData);
 
 
-})();
+})()
