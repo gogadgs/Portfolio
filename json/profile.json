@@ -92,6 +92,17 @@
             "netlify":true
         },
         {
+            "name": "Pokedex(APIPokemon)",
+            "url": "https://gogadgs.github.io/pokeApiDio/",
+            "url2": "https://poke-api-dio.vercel.app/",
+            "url3":"https://apipokemonsreplica.netlify.app/",
+            "favicon": true,
+            "pokedex": true,
+            "github": true,
+            "vercel": true,
+            "netlify":true
+        },
+        {
             "name": "CalculadoraReact",
             "url": "https://gogadgs.github.io/CalculadoraReact/",
             "url2": "",
@@ -101,8 +112,7 @@
             "github": true,
             "vercel": false,
             "netlify":false
-        }
-        
+        }  
     ],
     "professionalExperience": [
         {

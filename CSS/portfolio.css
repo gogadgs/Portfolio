@@ -72,6 +72,16 @@
     background-image:url("https://raw.githubusercontent.com/gogadgs/CalculadoraReact/main/public/favicon.ico");
     margin-right: 0.5rem;
 }
+.portfolio  li h3.favicon.pokedex::before{
+    content:"";
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-image:url("https://raw.githubusercontent.com/gogadgs/pokeApiDio/main/pokeballFavicon.png");
+    margin-right: 0.5rem;
+}
  li a.github::before{
     content:"";
     display: inline-block;
