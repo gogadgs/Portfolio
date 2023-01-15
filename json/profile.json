@@ -105,13 +105,13 @@
         {
             "name": "CalculadoraReact",
             "url": "https://gogadgs.github.io/CalculadoraReact/",
-            "url2": "",
-            "url3":"",
+            "url2": "https://calculadora-react-o6z6gikix-gogadgs.vercel.app/",
+            "url3":"https://calculadorarreact.netlify.app/",
             "favicon": true,
             "calculadoraReact": true,
             "github": true,
-            "vercel": false,
-            "netlify":false
+            "vercel": true,
+            "netlify":true
         }  
     ],
     "professionalExperience": [
