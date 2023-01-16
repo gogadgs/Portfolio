@@ -92,7 +92,7 @@
     background-image:url("https://raw.githubusercontent.com/gogadgs/pokeApiDio/main/pokeballFavicon.png");
     margin-right: 0.5rem;
 }
-.portfolio  li h3.favicon.API-Repositorios::before{
+.portfolio  li h3.favicon.APIRepositorios::before{
     content:"";
     display: inline-block;
     width:1rem;

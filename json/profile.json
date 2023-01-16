@@ -130,7 +130,7 @@
             "url2": "https://api-repositorios.vercel.app/",
             "url3":"https://api-repositorios.netlify.app/",
             "favicon": true,
-            "API-Repositorios": true,
+            "APIRepositorios": true,
             "github": false,
             "vercel": true,
             "netlify":true
