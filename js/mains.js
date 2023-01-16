@@ -54,7 +54,12 @@ const updatePortfolio = (profileData) => {
         `
     <li>
     
-            <h3 ${portfolio.relogio? 'class="favicon relogio"' : portfolio.calculadora?'class="favicon calculadora"':portfolio.Curriculo?'class="favicon Curriculo"':portfolio.calculadoraReact?'class="favicon calculadoraReact"':portfolio.pokedex?'class="favicon pokedex"':""}>${portfolio.name}</h3>
+            <h3 ${portfolio.relogio? 'class="favicon relogio"' : 
+            portfolio.calculadora?'class="favicon calculadora"':
+            portfolio.Curriculo?'class="favicon Curriculo"':
+            portfolio.calculadoraReact?'class="favicon calculadoraReact"':
+            portfolio.pokedex?'class="favicon pokedex"':
+            portfolio.qzz?'class="favicon qzz"':""}>${portfolio.name}</h3>
             <a ${portfolio.github?'class="github"':""} href="${portfolio.url}" target="_blank">${portfolio.url}</a>
             <a ${portfolio.vercel?'class="vercel"':""} href="${portfolio.url2}" target="_blank">${portfolio.url2}</a>
             <a ${portfolio.netlify?'class="netlify"':""} href="${portfolio.url3}" target="_blank">${portfolio.url3}</a>

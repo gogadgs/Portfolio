@@ -112,11 +112,22 @@
             "github": true,
             "vercel": true,
             "netlify":true
+        },  
+        {
+            "name": "Qzz",
+            "url": "https://gogadgs.github.io/quizzz/",
+            "url2": "quizzz-lake.vercel.app",
+            "url3":"https://quizzgogadgs.netlify.app",
+            "favicon": true,
+            "qzz": true,
+            "github": true,
+            "vercel": true,
+            "netlify":true
         }  
     ],
     "professionalExperience": [
         {
-            "name": "Auxiliar de Faturamento / Centerlux",
+            "name": "Billing Assistant/ Centerlux",
             "period": "Outubro 2022 - Atual",
             "description": "Faturamento de notas fiscais,atividades correlatas a logistica integrada via sistema WMS",
             "logo": {
