@@ -123,6 +123,17 @@
             "github": true,
             "vercel": true,
             "netlify":true
+        },
+        {
+            "name": "API-Repositorios",
+            "url": "",
+            "url2": "https://api-repositorios.vercel.app/",
+            "url3":"https://api-repositorios.netlify.app/",
+            "favicon": true,
+            "qzz": true,
+            "github": false,
+            "vercel": true,
+            "netlify":true
         }  
     ],
     "professionalExperience": [

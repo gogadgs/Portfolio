@@ -59,7 +59,8 @@ const updatePortfolio = (profileData) => {
             portfolio.Curriculo?'class="favicon Curriculo"':
             portfolio.calculadoraReact?'class="favicon calculadoraReact"':
             portfolio.pokedex?'class="favicon pokedex"':
-            portfolio.qzz?'class="favicon qzz"':""}>${portfolio.name}</h3>
+            portfolio.qzz?'class="favicon qzz"':
+            portfolio.API-Repositorios?'class="favicon API-Repositorios"':''}>${portfolio.name}</h3>
             <a ${portfolio.github?'class="github"':""} href="${portfolio.url}" target="_blank">${portfolio.url}</a>
             <a ${portfolio.vercel?'class="vercel"':""} href="${portfolio.url2}" target="_blank">${portfolio.url2}</a>
             <a ${portfolio.netlify?'class="netlify"':""} href="${portfolio.url3}" target="_blank">${portfolio.url3}</a>
