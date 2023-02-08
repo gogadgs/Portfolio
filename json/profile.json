@@ -126,12 +126,12 @@
         },
         {
             "name": "API-Repositorios",
-            "url": "",
+            "url": "https://gogadgs.github.io/Api-repositorios/",
             "url2": "https://api-repositorios.vercel.app/",
             "url3":"https://api-repositorios.netlify.app/",
             "favicon": true,
             "APIRepositorios": true,
-            "github": false,
+            "github": true,
             "vercel": true,
             "netlify":true
         }  
