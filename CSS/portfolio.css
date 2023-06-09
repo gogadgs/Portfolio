@@ -27,6 +27,7 @@
 .portfolio li a{
     color:#fff;
     text-decoration: none;
+    overflow:hidden;
 }
 
 .portfolio li a:hover{
