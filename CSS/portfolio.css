@@ -6,6 +6,7 @@
     margin:1rem 0rem;
     padding:0;
     list-style: none;
+    font-size: calc(3vh - 5px);
 
 }
 .portfolio li{
