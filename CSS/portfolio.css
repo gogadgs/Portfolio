@@ -6,7 +6,7 @@
     margin:1rem 0rem;
     padding:0;
     list-style: none;
-    font-size: calc(3vh - 5px);
+   
 
 }
 .portfolio li{
@@ -14,7 +14,6 @@
     flex-direction: column;
     justify-content:flex-start;
     margin-bottom: 1rem;
-    margin:1rem 0;
 }
 .portfolio li h3{
     display:flex;
@@ -28,7 +27,7 @@
 .portfolio li a{
     color:#fff;
     text-decoration: none;
-    overflow:hidden;
+    font-size: calc(1vw - -6.5px);
 }
 
 .portfolio li a:hover{
