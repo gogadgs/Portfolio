@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content:flex-start;
     width:100%;
-    margin:0;
+    margin:1rem 0rem;
     padding:0;
     list-style: none;
+   
 
 }
 .portfolio li{
@@ -13,7 +14,6 @@
     flex-direction: column;
     justify-content:flex-start;
     margin-bottom: 1rem;
-    margin:1rem 0;
 }
 .portfolio li h3{
     display:flex;
@@ -27,6 +27,7 @@
 .portfolio li a{
     color:#fff;
     text-decoration: none;
+    font-size: calc(1vw - -6.5px);
 }
 
 .portfolio li a:hover{
