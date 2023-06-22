@@ -1,7 +1,7 @@
-async function fetchProfileData  (){
+async function fetchProfileData() {
     const url = "https://raw.githubusercontent.com/gogadgs/Portfolio/main/json/profile.json"; // arquivo json a ser inserido e construido // 
-     const fetching =  await fetch(url);
-    return await  fetching.json();
+    const fetching = await fetch(url);
+    return await fetching.json();
 };
 /*  mesma função escrita sintaticamente diferente 
 const fetchProfileData_two = async()=>{
@@ -9,4 +9,4 @@ const fetchProfileData_two = async()=>{
     const fetching = await fetch(url);
     return await fetching.json();
 }
-*/
+ */
