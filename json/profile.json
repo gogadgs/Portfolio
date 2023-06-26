@@ -134,6 +134,28 @@
             "github": true,
             "vercel": true,
             "netlify":true
+        }, 
+        {
+            "name": "CloneHBOMax",
+            "url": "https://gogadgs.github.io/CloneHBO/",
+            "url2": "https://clone-hbo-phi.vercel.app/",
+            "url3":"https://clone-hbomax.netlify.app/",
+            "favicon": true,
+            "cloneHBOMAX": true,
+            "github": true,
+            "vercel": true,
+            "netlify":true
+        }, 
+        {
+            "name": "CloneDiscordia",
+            "url": "https://gogadgs.github.io/clone--discord/",
+            "url2": "https://clone-discord-alpha.vercel.app/",
+            "url3":"https://clone-discordia.netlify.app/",
+            "favicon": true,
+            "cloneD": true,
+            "github": true,
+            "vercel": true,
+            "netlify":true
         }  
     ],
     "professionalExperience": [

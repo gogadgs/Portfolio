@@ -12,10 +12,10 @@ const updateProfileInfo = (profileData) => {
     location.innerText = profileData.location;
     const phone = document.getElementById('profile.phone');
     phone.innerText = profileData.phone;
-    phone.href = `tel:${profileData.phone}`;
+    phone.href = `tel :${profileData.phone}`;
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
-    email.href = `mailto:${profileData.email}`;
+    email.href = `mailto :${profileData.email}`;
 
 
 };
@@ -60,7 +60,9 @@ const updatePortfolio = (profileData) => {
             portfolio.calculadoraReact?'class="favicon calculadoraReact"':
             portfolio.pokedex?'class="favicon pokedex"':
             portfolio.qzz?'class="favicon qzz"':
-            portfolio.APIRepositorios?'class="favicon APIRepositorios"':''}>${portfolio.name}</h3>
+            portfolio.APIRepositorios?'class="favicon APIRepositorios"':
+            portfolio.cloneHBOMAX?'class="favicon cloneHBOMAX"':
+            portfolio.cloneD?'class="favicon cloneD"':''}>${portfolio.name}</h3>
             <a ${portfolio.github?'class="github"':""} href="${portfolio.url}" target="_blank">${portfolio.url}</a>
             <a ${portfolio.vercel?'class="vercel"':""} href="${portfolio.url2}" target="_blank">${portfolio.url2}</a>
             <a ${portfolio.netlify?'class="netlify"':""} href="${portfolio.url3}" target="_blank">${portfolio.url3}</a>
