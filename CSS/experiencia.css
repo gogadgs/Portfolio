@@ -13,13 +13,24 @@ display: flex;
 flex-direction: row;
     
 }   
+.experiencia-profissional li .logo.SMT::before{
+        content:"";
+        display:inline-block;
+        width: 2rem;
+        height: 1rem;
+        background: no-repeat;
+        background-size: contain;
+        background-image:url("../Icones/SMT.png");
+        margin-right: 0.5rem;
+    
+}   
 
 .experiencia-profissional li .logo.centerlux::before{
         content:"";
         display:inline-block;
         width: 2rem;
         height: 1rem;
-        background-color: no-repeat;
+        background: no-repeat;
         background-size: contain;
         background-image:url("../Icones/centerlux.svg");
         margin-right: 0.5rem;
@@ -30,7 +41,7 @@ flex-direction: row;
         display:inline-block;
         width: 2.1rem;
         height: 1rem;
-        background-color: no-repeat;
+        background: no-repeat;
         background-size: contain;
         background-image:url("../Icones/RS.svg");
         margin-right: 0.5rem;
@@ -41,7 +52,7 @@ flex-direction: row;
         display:inline-block;
         width: 1.8rem;
         height: 1rem;
-        background-color: no-repeat;
+        background: no-repeat;
         background-size: contain;
         background-image:url("../Icones/DIMACI.svg");
         margin-right: 0.5rem;
@@ -52,7 +63,7 @@ flex-direction: row;
         display:inline-block;
         width: 2rem;
         height: 2rem;
-        background-color: no-repeat;
+        background: no-repeat;
         background-size: contain;
         background-image:url("../Icones/FORTPE.svg");
         margin-right: 0.5rem;
@@ -63,7 +74,7 @@ flex-direction: row;
         display:inline-block;
         width: 1rem;
         height: 1rem;
-        background-color: no-repeat;
+        background: no-repeat;
         background-size: contain;
         background-image:url("../Icones/calendario.svg");
         margin-right: 0.5rem;

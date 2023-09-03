@@ -83,7 +83,7 @@ const updateExperience = (profileData) => {
 
     <li>
     
-            <h3 ${experience.logo.Centerlux ? 'class="logo centerlux"':experience.logo.RS?'class="logo RS"':experience.logo.DIMACI?'class="logo DIMACI"': experience.logo.FORTPEL?'class="logo FORTPEL"':""}>${experience.name}
+            <h3 ${experience.logo.Centerlux ? 'class="logo centerlux"':experience.logo.RS?'class="logo RS"':experience.logo.DIMACI?'class="logo DIMACI"': experience.logo.FORTPEL?'class="logo FORTPEL"':experience.logo.SMT?'class="logo SMT""':""}>${experience.name}
             
             </h3>
             <span class="period" >${experience.period}</span>

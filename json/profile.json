@@ -159,8 +159,18 @@
         }  
     ],
     "professionalExperience": [
+
+
+           {
+            "name": "Billing Assistant / SMT",
+            "period": "Agosto 2023 - Atual",
+            "description": "Organização de estoque, PVPS(primeiro que vence primeiro que sai) o famoso 'FIFO', recebimento de importação e devolução por consignação",
+            "logo": {
+                "SMT": "Icones/SMT.png"
+            }
+        },
         {
-            "name": "Billing Assistant/ Centerlux",
+            "name": "Billing Assistant / Centerlux",
             "period": "Outubro 2022 - Junho 2023",
             "description": "Faturamento de notas fiscais,atividades correlatas a logistica integrada via sistema WMS",
             "logo": {
